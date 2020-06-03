@@ -126,6 +126,29 @@
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
+		<key>DropTables</key>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>CpuPm</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>Cpu0Ist</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>MATS</string>
+			</dict>
+		</array>
 		<key>FixHeaders</key>
 		<true/>
 		<key>FixMCFG</key>
@@ -139,9 +162,9 @@
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
-				<true/>
+				<false/>
 				<key>PStates</key>
-				<true/>
+				<false/>
 			</dict>
 		</dict>
 	</dict>
@@ -162,18 +185,12 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>BusSpeedkHz</key>
-		<integer>100</integer>
 		<key>C2</key>
 		<true/>
 		<key>C4</key>
 		<true/>
 		<key>C6</key>
 		<true/>
-		<key>FrequencyMHz</key>
-		<integer>4200</integer>
-		<key>TDP</key>
-		<integer>95</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -421,18 +438,18 @@
 		<key>MLB</key>
 		<string>C07150130QXDK22JC</string>
 		<key>ROM</key>
-		<data>NE6AUWxr</data>
+		<data>hEjhVwAt</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/13/2019</string>
+		<string>06/14/19</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MM51.88Z.F000.B00.1906131918</string>
+		<string>IM121.88Z.F000.B00.1906140041</string>
 		<key>Board-ID</key>
-		<string>Mac-8ED6AF5B48C039E1</string>
+		<string>Mac-942B59F58194171B</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
@@ -440,19 +457,19 @@
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
-		<string>1.0</string>
+		<string>1.9</string>
 		<key>ChassisAssetTag</key>
-		<string>Mini-Aluminum</string>
+		<string>iMac-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>0x10</string>
+		<string>0x0D</string>
 		<key>EfiVersion</key>
-		<string>135.0.0.0.0</string>
+		<string>87.0.0.0.0</string>
 		<key>Family</key>
-		<string>Mac mini</string>
+		<string>iMac</string>
 		<key>FirmwareFeatures</key>
-		<string>0xD00DE137</string>
+		<string>0xE00DE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -467,7 +484,7 @@
 			<array>
 				<dict>
 					<key>Frequency</key>
-					<integer>1800</integer>
+					<integer>1866</integer>
 					<key>Part</key>
 					<string>CMT8GX3M2A1866C9</string>
 					<key>Size</key>
@@ -481,7 +498,7 @@
 				</dict>
 				<dict>
 					<key>Frequency</key>
-					<integer>1800</integer>
+					<integer>1866</integer>
 					<key>Part</key>
 					<string>CMT8GX3M2A1866C9</string>
 					<key>Size</key>
@@ -502,13 +519,13 @@
 		<key>PlatformFeature</key>
 		<string>0xFFFF</string>
 		<key>ProductName</key>
-		<string>Macmini5,1</string>
+		<string>iMac12,2</string>
 		<key>SerialNumber</key>
 		<string></string>
 		<key>SmUUID</key>
 		<string></string>
 		<key>Version</key>
-		<string>1.0</string>
+		<string>1.9</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
@@ -517,8 +534,6 @@
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NvidiaWeb</key>
 		<true/>
 	</dict>
 </dict>
