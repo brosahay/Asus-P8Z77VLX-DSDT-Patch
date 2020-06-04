@@ -229,6 +229,11 @@
 				<key>layout-id</key>
 				<data>AwAAAA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>device-id</key>
+				<data>OhwAAA==</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
 			<dict>
 				<key>layout-id</key>
@@ -239,7 +244,9 @@
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>AAPL,snb-platform-id</key>
-				<data>6q2qAA==</data>
+				<data>EAADAA==</data>
+				<key>device-id</key>
+				<data>JgEAAA==</data>
 				<key>device_type</key>
 				<string>Display controller</string>
 				<key>hda-gfx</key>
