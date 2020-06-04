@@ -513,18 +513,18 @@
 		<key>MLB</key>
 		<string>C07150130QXDK22JC</string>
 		<key>ROM</key>
-		<data>hEjhVwAt</data>
+		<data>3tmO7Hig</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/14/19</string>
+		<string>04/12/2020</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM121.88Z.F000.B00.1906140041</string>
+		<string>IM131.88Z.F000.B00.2004121616</string>
 		<key>Board-ID</key>
-		<string>Mac-942B59F58194171B</string>
+		<string>Mac-FC02E91DDD3FA6A4</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
@@ -532,7 +532,7 @@
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
-		<string>1.9</string>
+		<string>1.0</string>
 		<key>ChassisAssetTag</key>
 		<string>iMac-Aluminum</string>
 		<key>ChassisManufacturer</key>
@@ -540,7 +540,7 @@
 		<key>ChassisType</key>
 		<string>0x0D</string>
 		<key>EfiVersion</key>
-		<string>87.0.0.0.0</string>
+		<string>291.0.0.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -592,15 +592,15 @@
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
-		<string>0xFFFF</string>
+		<string>0x01</string>
 		<key>ProductName</key>
-		<string>iMac12,2</string>
+		<string>iMac13,2</string>
 		<key>SerialNumber</key>
 		<string></string>
 		<key>SmUUID</key>
 		<string></string>
 		<key>Version</key>
-		<string>1.9</string>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
