@@ -194,39 +194,6 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
-		<key>AddProperties</key>
-		<array>
-			<dict>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Key</key>
-				<string>name</string>
-				<key>Value</key>
-				<data>I2Rpc3BsYXk=</data>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Key</key>
-				<string>IOName</string>
-				<key>Value</key>
-				<string>#display</string>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Key</key>
-				<string>class-code</string>
-				<key>Value</key>
-				<data>/////w==</data>
-			</dict>
-		</array>
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
@@ -257,10 +224,14 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)</key>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>layout-id</key>
-				<data>AwAAAA==</data>
+				<key>IOName</key>
+				<string>#display</string>
+				<key>class-code</key>
+				<data>/////w==</data>
+				<key>name</key>
+				<data>I2Rpc3BsYXk=</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
@@ -285,7 +256,7 @@
 				<key>hda-gfx</key>
 				<string>hda-gfx</string>
 				<key>model</key>
-				<string>Intel 2nd Generation Core Processor Family Integrated Graphics Controller</string>
+				<string>Intel HD 3000</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -348,13 +319,11 @@
 			<false/>
 			<key>Linux</key>
 			<false/>
-			<key>Tool</key>
-			<true/>
 		</dict>
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
-		<string>Clovy</string>
+		<string>HighSierra</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -367,10 +336,6 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>NvidiaGeneric</key>
-		<false/>
-		<key>NvidiaSingle</key>
-		<false/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -509,7 +474,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0</string>
+		<string>0x067</string>
 		<key>MLB</key>
 		<string>C07150130QXDK22JC</string>
 		<key>ROM</key>
